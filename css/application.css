@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body {
   background: url(../images/bg-tile.png);
+  margin: 0;
+  padding: 0;
 }
 
 img.inject-me {
@@ -426,6 +428,7 @@ a {
 #page-work .button {
   margin-top: 40px;
 }
+
 #page-work #work-detail {
   display: none;
   background: #23232e;
@@ -569,8 +572,12 @@ a {
 }
 
 #page-footer {
-  margin: 90px 0 0 90px;
-  padding-bottom: 90px;
+  padding-bottom: 3rem;
+  background-color: #464b4f;
+}
+
+#page-footer .cv{
+  margin: 10rem,0,0,10rem;
 }
 
 #page-footer .copy-02 {
@@ -750,18 +757,12 @@ a {
     margin-right: auto;
     padding: 18px 20px;
   }
-
-  #page-footer .social-links {
-    margin: 40px 0;
-  }
-  #page-footer .social-links a {
-    margin: 0 10px;
-  }
   #page-footer .copy-02 {
     margin-bottom: 10px;
     font-size: 12px;
     line-height: 12px;
   }
+  
 }
 body {
   -webkit-tap-highlight-color: transparent;
